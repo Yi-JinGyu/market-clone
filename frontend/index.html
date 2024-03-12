@@ -11,6 +11,7 @@
       crossorigin
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
     />
+    <link rel="shortcut icon" href="#" />
   </head>
   <body>
     <header>
@@ -39,7 +40,7 @@
       </div>
     </header>
     <main>
-      <div class="item-list">
+      <!-- <div class="item-list">
         <div class="item-list__img"><img src="assets/img.svg" alt="img" /></div>
         <div class="item-list__info">
           <div class="item-list__info-title">
@@ -98,8 +99,8 @@
           <div class="item-list__info-meta">역삼동ㆍ19초 전</div>
           <div class="item-list__info-price">100만원</div>
         </div>
-      </div>
-      <div class="write-btn">+글쓰기</div>
+      </div> -->
+      <a class="write-btn" href="write.html">+글쓰기</a>
     </main>
 
     <footer>
@@ -124,7 +125,9 @@
         </div>
         <div class="footer-icons">
           <div class="footer-icons__img">
-            <img src="assets/chat.svg" alt="chat" />
+            <a href="http://127.0.0.1:8000/" target="_blank">
+              <img src="assets/chat.svg" alt="chat" />
+            </a>
           </div>
           <div class="footer-icons__desc">채팅</div>
         </div>
@@ -137,5 +140,6 @@
       </div>
     </footer>
     <div class="media-info-msg">화면 사이즈를 줄여주세요</div>
+    <script src="index.js"></script>
   </body>
 </html>
