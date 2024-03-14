@@ -1,5 +1,5 @@
 <body>
-  <form id="login-form" action="/signup" method="POST">
+  <form id="login-form" action="#/signup" method="POST">
     <div>
       <label for="id">아이디</label>
       <input type="text" id="id" name="id" required />

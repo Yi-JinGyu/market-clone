@@ -1,4 +1,4 @@
-<form id="signup-form" action="/signup" method="POST">
+<form id="signup-form" action="#/signup" method="POST">
   <div>회원 가입</div>
   <div>
     <label for="id">아이디</label>
